@@ -11,7 +11,7 @@ const SkeletonCards: React.FC = () => {
         <VStack
           key={`skeleton-${card}-${index}`}
           sx={UserCardColumn}
-          _mediaDark={{ bg: 'gray.900' }}
+          _dark={{ bg: 'gray.900' }}
         >
           <SkeletonCircle size='120px' />
           <SkeletonText mt='4' noOfLines={card} spacing='4' skeletonHeight='2' />
