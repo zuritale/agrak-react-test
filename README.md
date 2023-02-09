@@ -1,7 +1,25 @@
+## About The Project
+
+<img src="https://api.multiavatar.com/2665e2c7941426e243.png" width=100px height=100px>
+
+This is the result of my React test for Agrak, a simple app for fetching, creating, editing and deleting users
+
 # React Code Challenge — Agrak
 
 Using the provided project structure and the provided API, create a simple web application that allows to manage a list
 of users.
+
+### Installation
+
+1. rename `.env.example` to `.env`, this way our app will get the Base Url from the new `.env` file.
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Start the app
+   ```sh
+   npm run start
+   ```
 
 ## Details
 
